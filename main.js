@@ -24,7 +24,7 @@ function totalDaysProgress() {
       const totalDays = 1461;
       const percentage = daysSince() / totalDays * 100;
       return percentage.toFixed(1) + "%";
-  // console.log(Math.floor(114/1461 * 100) + "%");
+
     
 }
 
